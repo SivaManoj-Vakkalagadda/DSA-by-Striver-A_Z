@@ -45,3 +45,17 @@ public:
       size[ulp_u] += size[ulp_v];
     }
 }
+
+
+
+// Using snippet by Rank
+
+DisjointSet ds(n);
+ds.unionByRank(a,b) // for all edges repeat it
+
+if(ds.findUPar(a) == ds.findUPar(b)){
+  cout << "Same" << endl;
+}
+else cout << "NotSame" << endl;
+
+
